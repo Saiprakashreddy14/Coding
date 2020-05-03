@@ -16,7 +16,6 @@ def solve(x):
     return best
 
 print("Best Solution is ",solve(target))
-total = 0
 
 for i in dic:
     if(dic[i]==target)
