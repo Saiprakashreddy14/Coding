@@ -17,5 +17,3 @@ def solve(x):
 
 print("Best Solution is ",solve(target))
 
-for i in dic:
-    if(dic[i]==target)
