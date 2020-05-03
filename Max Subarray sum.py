@@ -8,3 +8,6 @@ def maxsubarraysum(lis):
         max_sum=max(max_sum,cur_sum)
     return max_sum
 print("Max Sum is : ",maxsubarraysum(lis))
+
+
+//O(n) approach using Kadanes algorithm
