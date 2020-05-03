@@ -16,7 +16,7 @@ def maxjumps(arr):
             return -1
 print(maxjumps([1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9]))
         
-
+// -1 referes that we cannot reach the end 
 
 
 
