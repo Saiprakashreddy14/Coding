@@ -4,16 +4,16 @@ dic={}
 
 def solve(x):
     if(x<0):
-        return 99999
+        return float('inf')
     if(x==0):
         return 0
     if x in dic:
         return dic[x]
-    best = 99999
+    best = float('inf')
     for i in coins:
         best = min(best,solve(x-i)+1)
     dic[x]=best
     return best
-
 print("Best Solution is ",solve(target))
+
 
